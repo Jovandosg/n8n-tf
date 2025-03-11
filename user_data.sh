@@ -44,7 +44,7 @@ sudo chown -R $USER:$USER /home/ec2-user/n8n
 cat <<EOF > .env
 # n8n
 N8N_ENCRYPTION_KEY=175da018a5f60d14b09088e53d47a547
-SSL_EMAIL=alisrios@alisriosti.com.br
+SSL_EMAIL=doancasottiaws@gmail.com.br
 SUBDOMAIN=n8n
 DOMAIN_NAME=jovando.com.br
 GENERIC_TIMEZONE=America/Sao_Paulo

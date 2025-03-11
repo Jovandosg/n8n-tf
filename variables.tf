@@ -10,6 +10,7 @@ variable "tags" {
 variable "aws_provider" {
   type = object({
     region = string,
+    profile = string,
     assume_role = object({
       role_arn = string
     })
@@ -17,6 +18,7 @@ variable "aws_provider" {
 
   default = {
     region = "us-east-1"
+    profile = "Memphis"
     assume_role = {
       role_arn = "arn:aws:iam::975050217683:role/terraform-projeto3"
     }
